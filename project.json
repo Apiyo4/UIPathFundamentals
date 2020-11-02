@@ -1,12 +1,12 @@
 {
-  "name": "my_first_rpa",
-  "description": "This is a project to help with understanding basic RPA concepts",
-  "main": "Main.xaml",
+  "name": "QuickLibrary",
+  "description": "This is a basic library that gets data from one excel file and types it into another excel file.",
+  "main": "NewActivity.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.9.3]",
-    "UiPath.Mail.Activities": "[1.9.3]",
-    "UiPath.System.Activities": "[20.10.1]",
-    "UiPath.UIAutomation.Activities": "[20.10.6]"
+    "UiPath.Excel.Activities": "2.9.3",
+    "UiPath.Mail.Activities": "1.9.3",
+    "UiPath.System.Activities": "20.10.1",
+    "UiPath.UIAutomation.Activities": "20.10.6"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -28,7 +28,7 @@
   },
   "designOptions": {
     "projectProfile": "Developement",
-    "outputType": "Process",
+    "outputType": "Library",
     "libraryOptions": {
       "includeOriginalXaml": false,
       "privateWorkflows": []
@@ -40,14 +40,6 @@
     "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
-  "entryPoints": [
-    {
-      "filePath": "Main.xaml",
-      "uniqueId": "96e8dfd0-541f-43ac-9a67-a4601fe25dcf",
-      "input": [],
-      "output": []
-    }
-  ],
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {}
